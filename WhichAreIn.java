@@ -10,7 +10,7 @@ public class WhichAreIn {
         String[] b = {"lively", "alive", "harp", "sharp", "armstrong"};
 
 
-        String[] result = inArray(a1, b);
+        String[] result = inArray(a, b);
         System.out.println(Arrays.toString(result));
     }
 
