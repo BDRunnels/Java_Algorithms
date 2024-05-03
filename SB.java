@@ -26,6 +26,9 @@ public class SB {
 
         for (char c: sb.toString().toCharArray()) {
             System.out.print(c + " ");
+            if (c == sb.charAt(sb.length() -1)) {
+                System.out.println("\n\tFinished!");
+            }
         }
     }
 }

@@ -8,7 +8,11 @@ const gradeRound = (grades) => {
     );
 };
 
+const func = () => {
+    console.log("hi");
+}
 console.log(gradeRound([73,67,38,33]));
+func();
 
 // JAVA ANSWER
 // public static List<Integer> gradingStudents(List<Integer> grades) {
